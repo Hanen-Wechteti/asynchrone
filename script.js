@@ -3,7 +3,7 @@ let btnLoadJson = document.getElementById('loadJSON')
 function loadJson() {
     // Replace 'your-json-file.json' with the actual path to your JSON file
     let ul = document.getElementById('jsonList');
-    fetch('tableau1.json')
+    fetch('tableau.json')
       .then(response => response.json())
       .then((tableau) => {
             for (let element of tableau){
